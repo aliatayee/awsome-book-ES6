@@ -60,7 +60,6 @@ input {
   gap: 10px;
 }
 
-
 #books-container {
   width: 500px;
   margin-bottom: 10px;
@@ -71,6 +70,7 @@ input {
 .bookCard:nth-of-type(odd) {
   background-color: rgb(233, 233, 233);
 }
+
 .formContainer {
   display: flex;
   justify-content: center;

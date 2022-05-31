@@ -34,7 +34,6 @@ class Book {
 
     /* REMOVE FUNCTION */
     function remove() {
-   
       const bookCard = document.getElementById(`${newBook.index}`);
       bookCard.remove();
       bookCollection = bookCollection.filter((element) => element !== newBook);

@@ -11,7 +11,6 @@ const pageLoad = () => {
       /* REMOVE FUNCTION */
       // eslint-disable-next-line no-loop-func
       const removeButton = () => {
-    
         const bookCard = document.getElementById(`${storage[i].index}`);
         bookCard.remove();
         // seperator.parentNode.removeChild(seperator);

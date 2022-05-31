@@ -1,0 +1,21 @@
+{
+  "name": "awsome-book-ES6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliatayee/awsome-book-ES6.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aliatayee/awsome-book-ES6/issues"
+  },
+  "homepage": "https://github.com/aliatayee/awsome-book-ES6#readme"
+}

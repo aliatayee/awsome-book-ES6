@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+  padding-left: 20px;
+  background: lightgrey;
+}
+
+#dateTime {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+  color: grey;
+}
+
+.nav ul {
+  display: flex;
+  gap: 30px;
+  list-style-type: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.main {
+  width: 500px;
+  margin: 50px auto 0 auto;
+}
+
+h1 {
+  margin-left: 100px;
+}
+
+input {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 30px;
+}
+
+.bookCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 40px;
+}
+
+.bookInfo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+#books-container {
+  width: 500px;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  border: 3px solid black;
+}
+
+.bookCard:nth-of-type(odd) {
+  background-color: rgb(233, 233, 233);
+}
+.formContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#submit {
+  display: flex;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.disappear {
+  display: none;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: lightgrey;
+  color: black;
+  text-align: center;
+  margin-right: 5px;
+}
